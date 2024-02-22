@@ -1,0 +1,28 @@
+.parent{
+    display: flex;
+    row-gap: 20px;
+}
+.slide {
+    display: none;
+    width: 40px;
+    height: 100%;
+    position: fixed;
+    background-color: red;
+    right: 0px;
+
+}
+.appear{
+    display:flex;
+    
+}
+.overlay {
+    padding-left: 30px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    
+  }
